@@ -12,7 +12,6 @@
 		53ABDD93240F6A7A008EE826 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53ABDD91240F6A7A008EE826 /* Main.storyboard */; };
 		53ABDD95240F6A7C008EE826 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53ABDD94240F6A7C008EE826 /* Assets.xcassets */; };
 		53ABDD98240F6A7C008EE826 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53ABDD96240F6A7C008EE826 /* LaunchScreen.storyboard */; };
-		53ABDDA3240F6A7C008EE826 /* FoodTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53ABDDA2240F6A7C008EE826 /* FoodTrackerTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,8 +33,6 @@
 		53ABDD97240F6A7C008EE826 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		53ABDD99240F6A7C008EE826 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		53ABDD9E240F6A7C008EE826 /* FoodTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		53ABDDA2240F6A7C008EE826 /* FoodTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTrackerTests.swift; sourceTree = "<group>"; };
-		53ABDDA4240F6A7C008EE826 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +57,6 @@
 			isa = PBXGroup;
 			children = (
 				53ABDD8C240F6A7A008EE826 /* FoodTracker */,
-				53ABDDA1240F6A7C008EE826 /* FoodTrackerTests */,
 				53ABDD8B240F6A7A008EE826 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,15 +81,6 @@
 				53ABDD99240F6A7C008EE826 /* Info.plist */,
 			);
 			path = FoodTracker;
-			sourceTree = "<group>";
-		};
-		53ABDDA1240F6A7C008EE826 /* FoodTrackerTests */ = {
-			isa = PBXGroup;
-			children = (
-				53ABDDA2240F6A7C008EE826 /* FoodTrackerTests.swift */,
-				53ABDDA4240F6A7C008EE826 /* Info.plist */,
-			);
-			path = FoodTrackerTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -206,7 +193,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53ABDDA3240F6A7C008EE826 /* FoodTrackerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
